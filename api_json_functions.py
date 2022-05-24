@@ -1,8 +1,3 @@
-# data-enrichment-helper-functions
- Functions for data enrichment assignments and projects
-
-```python
-
 import pandas as pd
 import json
 import tmdbsimple as tmdb
@@ -74,4 +69,4 @@ def write_json(new_data, filename):
         json.dump(file_data, file)
 
 	
-```
+	
